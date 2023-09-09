@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Netflix Sign In</title>
+    <link  rel="icon" href="data:image/png;base64,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" />
+    <style>
+        .input{
+            display:block;
+        }
+        body{
+             background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+             background-repeat:no-repeat;
+           
+              font-family:Arial;
+
+        }
+        .in{
+            width:450px;
+            height:620px;
+            background-color:rgba(0,0,0,0.9);
+            margin:250px auto ;
+            color:black;
+            padding:20px 30px;
+            font-size:18px;
+            border-radius:5px;
+        }
+        .sign{
+            color:white;
+            text-align:center;
+        }
+        .btn{
+            text-align:center;
+        }
+       
+        button{
+            padding:10px 40px;
+            background-color:red;
+            color:white;
+            font-size:20px;
+            color:white;
+            border-radius:2px;
+            
+        }
+        .input {
+                 background-color:grey;
+                 width:100%;
+                 font-size:1.1em;
+                 border:1px solid black;
+                 box-shadow:2px;
+                 border-radius:5px;
+                 padding:12px 6px;
+                 box-sizing:border-box;
+        }
+        ::placeholder{
+            color:white;
+            opacity:1;
+            padding:5px 10px;
+        }
+        .in .input{
+            margin:45px 7px;
+        }
+        label {
+        
+            color:white;
+            
+        }
+        a{
+            color:white;
+            text-decoration:none;
+        }
+        .ad {
+            color:dodgerblue;
+        }
+        #abb {
+             padding:0px 0px 0px 200px;
+        }
+        h3,h4{
+            color:darkgrey;
+        }
+        a:hover{
+            color:red;
+            text-decoration:underline;
+        }
+        #abb:hover{
+             color:red;
+             text-decoration:underline;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="in">
+        <h1 class="sign">Sigin In</h1>
+        <div >
+            <form action="C:\Users\cse\Documents\Visual Studio 2015\Projects\summa.html" method="get">
+                <input class="input" type="email" name="email" placeholder="Email" />
+                <input class="input" type="password" name="password" placeholder="Password" />
+                <br />
+                <div class="btn">
+                    <button type="submit"><b>Sign In</b></button>
+                </div>
+                <br >
+                <input id="cd" type="checkbox" />
+                <label >Remember Me</label>
+                <label id="abb">Need help?</label>
+                <br /><br /><br /><br />
+                <h3>New to Netflix?<a  href="https://www.netflix.com/in/">Sign up now</a></h3>
+                <h4>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a class="ad" href=" ">Learn more.</a></h4>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
