@@ -6,8 +6,7 @@
     <title>Photo Gallery</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4503/4503941.png">
     <style>
-     
-        .container{
+     .container{
             background-color:darkgray;
             border-radius: 20px;
             display:flex;
