@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4503/4503941.png">
+    <style>
+     
+        .container{
+            background-color:darkgray;
+            border-radius: 20px;
+            display:flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             border:1px solid black
+        }
+        .img{
+            padding: 5px;
+            opacity: 0.8;
+        }
+        .img:hover{
+            opacity: 1;
+            transition: .9s;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPg4iTmJlVorPBePCyb-f72Yv9Y9U32hhLT3ZieS5HiRWXveX4dKoLOaTgi_HdKFlw5Hc&usqp=CAU" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZUF7RhdMVwVlJ6NM6Vm9bIJBW1A53UatOoMEaV-4etshnpDDjNARPd_65WNn-Kk5V9U8&usqp=CAU" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPK2YXVi1rU8_fxz0v6fattz7-JOo7wPj5dQvPQic0I1Q95fvyaARhADSGzxYddNrccLU&usqp=CAU" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://images.assetsdelivery.com/compings_v2/antstang/antstang2302/antstang230200646.jpg" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://media.istockphoto.com/id/1430131312/photo/dry-autumn-grass-on-the-shore-of-the-lake-at-sunset-abstract-nature-background-macro-image.webp?b=1&s=170667a&w=0&k=20&c=W2VtB8-BCvszLvyNYLKgiOR3lGnEvYvSfRR91Mpn42o=" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww&w=1000&q=80" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP2Zpq_Ri4Y2NuhpOCcA9XAee9DumC86CM16c3c4IPz_BQLykFvNSkhiM8_UMBCYuiYbo&usqp=CAU" width="300px" height="180px" alt=""></div>
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT09Xl0jgzuvEyBLuv-hO-iVJuR9C4zEq5mlRTxOodSNMIZ3ewzJsTsOgmrtyFXfEQ3nNg&usqp=CAU" width="300px" height="180px" alt=""></div>
+    </div>
+</body>
+</html>
